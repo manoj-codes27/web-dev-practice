@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Navbar</title>
+</head>
+<style>
+    .container{
+        background-color:whitesmoke;
+        width:min(200px,30%);
+        height:100vh;
+        padding-top: 12px;
+    }
+    body{
+        margin:0;
+        padding:0;
+    }
+    .v-nav ul{
+        list-style-type: none;
+        margin:0px;
+        padding:0;
+    }
+    .v-nav ul li a{
+        text-decoration: none;
+        background-color: rgb(79, 79, 3);
+        display:block;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding:10px 6px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        font-weight: bold;
+
+
+        
+    }
+    .v-nav ul li a:hover{
+        color: rgb(4, 6, 0);
+        background-color: rgb(238, 238, 31);
+        border-color:rgb(104, 93, 93);
+        border-width:1px;
+        border-style: solid;
+        font-weight: bold;
+    }
+    .v-nav ul li {
+        margin:14px;
+        /* box-sizing: border-box; */
+    }
+</style>
+<body>
+    <!-- <h1>VERICAL NAVBAR</h1> -->
+    <div class="container">
+        <nav class="v-nav">
+            <ul>    
+                <li><a href="">Home</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Plus</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
