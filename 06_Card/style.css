@@ -1,0 +1,80 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.bg-container{
+    background-color: rgb(26, 2, 2);
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: rgb(208, 8, 8);
+    width:100%;
+    max-width: 400px;
+    min-height: 400px;
+    border-radius: 6px;
+    margin: 24px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+
+}
+.image{
+    border-radius: 12px;
+    width:100%;
+
+}
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(246, 165, 165);
+    text-align: center;
+}
+.content{
+   display: flex;
+   justify-content:center;
+}
+.para{
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(84, 2, 18);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.btnn{
+  padding:8px 16px;
+  border-radius: 8px;
+  border:solid;
+  color:whitesmoke;
+  font-weight: bold;
+  background-color: transparent;
+  margin:20px;
+ 
+  
+}
+.btnn:hover , .btnn2:hover{
+  color: rgb(208, 8, 8);
+  font-weight: bold;
+  background-color: whitesmoke;
+
+}
+.btnn2{
+  padding:8px 16px;
+  border-radius: 8px;
+  border: solid;
+  color:whitesmoke;
+  font-weight: bold;
+  background-color: transparent;
+  margin:20px;
+  
+  
+}
+.btnContainer{
+   display: flex;
+   justify-content: space-between;
+   margin: 20px;
+}
