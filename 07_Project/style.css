@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: wheat;
+}
+.carousel-item img{
+   height:80vh;
+    /* aspect ratio is useful for specific ratios */
+   aspect-ratio: 16/9;
+   object-fit: fill;
+
+}
+.cards{
+    display:flex;
+    justify-content: space-around;
+    margin:20px;
+}
+.footer{
+    border: 1px solid black;
+}
+.heading-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
